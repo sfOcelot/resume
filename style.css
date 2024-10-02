@@ -1,5 +1,10 @@
 body{
+    margin:0px;
     background-color:#00094d;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
     color:#00ffff;
 }
 
@@ -16,6 +21,7 @@ a{
 
 h1{
     margin:0px;
+    display:flex
     text-align:center;
     font-family: Arial, 'Times New Roman', sans-serif;
     color:#00ffff;
@@ -41,23 +47,32 @@ h3{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    gap:50px;
 }
 
 .certificateImage{
     align-items:center;
-    height:500px;
-    width:1000px;
+    height:450px;
+    width:800px;
+}
+
+.contactSection{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .contactIcon{
+    display:flex;
+    justify-content: space-between;
     transition-duration:0.1s;
-    width:25px;
+    width:30px;
     display:flex;
     filter:white;
 }
 
 .contactIcon:hover{
     transition-duration:0.1s;
-    width:30px;
+    width:35px;
     filter:white;
 }
