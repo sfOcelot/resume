@@ -1,0 +1,53 @@
+body{
+    background-color:#00094d;
+    color:#00ffff;
+}
+
+p{
+    margin:0px;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    color:#00ffff;
+}
+
+a{
+    font-family: Arial, 'Times New Roman', sans-serif;
+    color:#00817d;
+}
+
+h1{
+    margin:0px;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    color:#00ffff;
+    text-shadow:2px, 2px, 4px, grey;
+}
+
+h2{
+    margin:0px;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    color:#00ffff;
+}
+
+h3{
+    margin:0px;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    color:#00ffff;
+}
+
+.resumeSection{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.contactIcon{
+    transition-duration:0.1s;
+    width:25px;
+    filter:white;
+}
+
+.contactIcon:hover{
+    transition-duration:0.1s;
+    width:30px;
+    filter:white;
+}
