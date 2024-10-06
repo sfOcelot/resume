@@ -102,6 +102,7 @@ h4{
 @media only screen and (max-width: 600px){
     body{
         padding:10px;
+        margin:0px;
     }
 
 
@@ -116,7 +117,8 @@ h4{
 }
 
 h1, h2, h3, h4, p{
-    font-size:1.2em;
+    font-size:1.1em;
+    margin: 5px 0;
 }
 
 .contactSection{
@@ -125,6 +127,11 @@ h1, h2, h3, h4, p{
 }
 
 .contactIcon{
-    width:40px;
+    width:35px;
 }
+
+header, section, footer{
+    text-align:center;
+}
+
 }
