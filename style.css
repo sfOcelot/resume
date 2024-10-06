@@ -122,8 +122,9 @@ h1, h2, h3, h4, p{
 }
 
 .contactSection{
-    flex-direction:column;
+    flex-direction:row;
     gap:10px;
+    justify-content:center;
 }
 
 .contactIcon{
