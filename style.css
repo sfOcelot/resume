@@ -98,3 +98,33 @@ h4{
     width:35px;
     filter:white;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        padding:10px;
+    }
+
+
+.certificateImages{
+    flex-direction:column;
+    gap:10px;
+}
+
+.certificateImage{
+    width:100%;
+    height:auto;
+}
+
+h1, h2, h3, h4, p{
+    font-size:1.2em;
+}
+
+.contactSection{
+    flex-direction:column;
+    gap:10px;
+}
+
+.contactIcon{
+    width:40px;
+}
+}
