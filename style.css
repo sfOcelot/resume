@@ -5,42 +5,20 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    font-family: Arial, 'Times New Roman', sans-serif;
     color:#00ffff;
 }
 
 p{
     margin-top:10px;
-    font-family: Arial, 'Times New Roman', sans-serif;
-    color:#00ffff;
 }
 
 a{
-    font-family: Arial, 'Times New Roman', sans-serif;
     color:#00817d;
-}
-
-h1{
-    margin:0px;
-    font-family: Arial, 'Times New Roman', sans-serif;
-    color:#00ffff;
-}
-
-h2{
-    margin:0px;
-    font-family: Arial, 'Times New Roman', sans-serif;
-    color:#00ffff;
-}
-
-h3{
-    margin:0px;
-    font-family: Arial, 'Times New Roman', sans-serif;
-    color:#00ffff;
 }
 
 h4{
     margin:10px;
-    font-family: Arial, 'Times New Roman', sans-serif;
-    color:#00ffff;
     text-decoration:underline;
 }
 
@@ -85,7 +63,7 @@ h4{
 
 .contactIcon{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     transition-duration:0.1s;
     width:30px;
     display:flex;
