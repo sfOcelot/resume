@@ -1,5 +1,4 @@
 body{
-    margin:0px;
     background-color:#000323;
     display:flex;
     flex-direction: column;
@@ -22,43 +21,49 @@ h4{
     text-decoration:underline;
 }
 
-.resumeSection{
-    margin-top:20px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    gap:20px;
+footer{
+    background-color:#080e52;
 }
 
 .certificateSection{
     margin-top:20px;
-    background-color:#080e52;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap:20px;
 }
 
-.certificateImages{
+.certificate{
+    background-color:#080e52;
+    padding:10px;
     display:flex;
+    flex-direction:column;
+    align-items:center;
+    max-width:700px;
+}
+
+.certificates{
+    display:flex;
+    flex-direction:row;
     justify-content:center;
+    align-items:center;
     gap:20px;
 }
 
 .certificateImage{
     height:450px;
     width:650px;
-    object-fit:cover;
 }
 
 .contactSection{
+    background-color:#080e52;
     margin-top:20px;
+    margin-bottom:10px;
     display:flex;
     justify-content:center;
     align-items:center;
     gap: 10px;
+    padding:10px;
 }
 
 .contactIcon{
@@ -67,14 +72,35 @@ h4{
     transition-duration:0.1s;
     width:30px;
     display:flex;
-    filter:white;
 }
 
 .contactIcon:hover{
     transition-duration:0.1s;
     width:35px;
-    filter:white;
 }
+
+.project{
+    background-color:#080e52;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    max-width:300px;
+}
+
+.projects{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.projectImage{
+    height:200px;
+    width:300px;
+}
+
 
 @media only screen and (max-width: 600px){
     body{
@@ -83,7 +109,7 @@ h4{
     }
 
 
-.certificateImages{
+.certificates{
     flex-direction:column;
     gap:10px;
 }
